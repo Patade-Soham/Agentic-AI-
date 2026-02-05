@@ -1,0 +1,338 @@
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+Product Name
+
+RiskLens
+
+Category
+
+Research & Analysis
+
+Positioning
+
+Decision-Support & Risk Awareness Agent (Not a Decision Maker)
+
+1. Product Vision
+
+As AI and technology systems scale, risk increasingly emerges from context, data, and decision authority, not just from models.
+RiskLens exists to surface hidden legal, data, and ethical risk signals early, so humans can make better-informed decisions.
+
+RiskLens does not replace experts.
+It compresses risk awareness into minutes for learning and discussion.
+
+2. Intended Use (Explicit & Restricted)
+✅ Intended For
+
+Research & education
+
+Workshops and learning environments
+
+Early-stage startup exploration
+
+Academic projects
+
+Preliminary VC / PE screening discussions
+
+❌ Not Intended For
+
+Legal advice or compliance certification
+
+Medical or financial decision-making
+
+Regulatory interpretation
+
+Automated approval or rejection
+
+Enforcement or execution
+
+3. Core User Personas
+
+Student / Researcher
+Wants to understand risk dimensions of ideas.
+
+Startup Founder (Early Stage)
+Wants to avoid blind spots before building or pitching.
+
+University / Innovation Lab
+Wants structured discussion around ethics & governance.
+
+VC / PE Analyst (Exploratory)
+Wants early risk signals, not legal opinions.
+
+4. Problem Statement
+
+Most AI and tech projects fail due to late discovery of risk, such as:
+
+Privacy violations
+
+Ethical backlash
+
+Regulatory exposure
+
+Automation misuse
+
+Existing approaches are:
+
+Manual
+
+Expert-dependent
+
+Post-deployment
+
+RiskLens shifts risk discovery left (earlier) in the lifecycle.
+
+5. Functional Requirements (Enhanced)
+5.1 Input Layer
+
+Accepted Inputs
+
+Free-text project description
+
+Optional PDF / pitch summary
+
+Optional domain selector
+
+Optional geography selector
+
+⚠️ Constraints
+
+No personal data ingestion
+
+No scraping
+
+User-provided inputs only
+
+5.2 Perception & Parsing Layer
+
+Responsibilities
+
+Convert unstructured input → structured representation
+
+Extracts
+
+System purpose
+
+Target users
+
+Data types involved
+
+Level of automation (assistive vs autonomous)
+
+Decision impact level
+
+This layer is the foundation of defensibility.
+
+5.3 Risk Awareness Modules (Advisory Only)
+
+All modules operate on pattern recognition, not legal interpretation.
+
+🔴 Legal Risk Awareness Module
+
+Flags:
+
+Regulatory sensitivity patterns
+
+Liability exposure signals
+
+IP ownership ambiguity
+
+Jurisdictional complexity
+
+Output style
+
+“May involve…”
+
+“Could introduce…”
+
+“Requires expert review…”
+
+❌ Never states violations or compliance.
+
+🟠 Data Risk Awareness Module
+
+Flags:
+
+Personal or sensitive data usage
+
+Consent ambiguity
+
+Data provenance uncertainty
+
+Leakage or misuse potential
+
+Focus: data lifecycle, not data access.
+
+🟡 Ethical Risk Awareness Module
+
+Flags:
+
+Bias amplification risks
+
+Automation overreach
+
+Explainability gaps
+
+Potential human harm
+
+Ethics is framed as discussion-oriented, not enforceable.
+
+5.4 Risk Scoring & Confidence Engine (Enhanced)
+
+Features
+
+Transparent, explainable weighting
+
+Per-module risk scores
+
+Overall risk posture
+
+Confidence indicators
+
+Explicit uncertainty highlighting
+
+⚠️ No “approve / reject” outcomes.
+
+5.5 Report Generation Engine
+
+Produces
+
+Executive summary
+
+Risk table (Legal / Data / Ethical)
+
+Assumptions & limitations
+
+Discussion prompts
+
+Suggested next questions
+
+Language
+
+Neutral
+
+Non-alarmist
+
+Educational
+
+5.6 Human-in-the-Loop Gate (Mandatory)
+
+High-risk flags clearly marked
+
+Human review explicitly required
+
+Override or commentary encouraged
+
+This is a design feature, not a safeguard afterthought.
+
+6. Non-Functional Requirements
+Ethics & Safety
+
+Advisory-only
+
+No automation authority
+
+No personal profiling
+
+No platform violations
+
+Transparency
+
+Explainable reasoning
+
+Clear assumptions
+
+Visible limitations
+
+Governance Readiness
+
+Persistent disclaimers
+
+Safe language
+
+Review-first posture
+
+7. Defensibility Strategy (Enhanced)
+Intellectual Defensibility
+
+Proprietary risk reasoning frameworks
+
+Modular evaluation logic
+
+Explainable outputs
+
+Workflow Defensibility
+
+Not replaceable by “just prompting GPT”
+
+Structured evaluation loop
+
+Ethical Defensibility
+
+No scraping
+
+No decisions
+
+Human oversight by design
+
+Regulatory Alignment
+
+Research-only positioning
+
+Safe for regulated domains
+
+8. END-TO-END WORKFLOW
+Step 1 — User Input
+
+User submits idea with explicit acknowledgment:
+
+“For research and educational purposes only.”
+
+Step 2 — Context Parsing
+
+Agent extracts system structure and assumptions.
+
+Step 3 — Parallel Risk Analysis
+
+Legal, Data, Ethical modules run independently.
+
+Step 4 — Risk Synthesis
+
+Scores aggregated with confidence indicators.
+
+Step 5 — Report Generation
+
+Structured, readable, discussion-ready output.
+
+Step 6 — Human Review
+
+User interprets, challenges, or refines conclusions.
+
+9. Copilot vs Pilot Positioning
+Aspect	RiskLens
+Autonomy	Limited
+Authority	None
+Role	Risk awareness
+Execution	Disabled
+Oversight	Mandatory
+
+👉 RiskLens is a Copilot for judgment, not a Pilot for action.
+
+10. Success Metrics (Ethical KPIs)
+
+Improved risk understanding
+
+Earlier risk discovery
+
+User trust (not dependency)
+
+Quality of human discussion
+
+11. Mandatory Disclaimer (Every Output)
+
+Disclaimer:
+This analysis is provided for research and educational purposes only.
+It does not constitute legal, ethical, medical, financial, or regulatory advice.
+All conclusions are advisory and require review by qualified human experts.
+
+12. One-Line Positioning (Final)
+
+RiskLens helps people think clearly about risk before decisions are made — for research and education only.
