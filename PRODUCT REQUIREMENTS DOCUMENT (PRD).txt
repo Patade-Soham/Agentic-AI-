@@ -267,7 +267,7 @@ Structured evaluation loop
 
 Ethical Defensibility
 
-No scraping
+No scraping,
 
 No decisions
 
